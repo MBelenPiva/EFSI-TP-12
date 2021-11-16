@@ -1,3 +1,8 @@
+import React, { useState, Fragment } from 'react';
+
+function AboutBox() {
+return (
+
 <div class="about-box-main">
     <div class="container">		
         <div class="row my-4">
@@ -55,3 +60,8 @@
         </div>
     </div>
 </div>
+
+  );
+}
+
+export default AboutBox;

@@ -1,4 +1,7 @@
+import React, { useState } from 'react';
 
+return (
+    <>
 
     <footer>
     <div class="footer-main">
@@ -45,3 +48,8 @@
         </div>
 </footer>
 
+
+</>
+);
+
+export default Footer;

@@ -1,3 +1,7 @@
+import React, { useState } from 'react';
+
+return (
+    <>
     
     <div class="contact-box-main">
     <div class="container">
@@ -62,3 +66,7 @@
 </div>
 </div>
 
+</>
+);
+
+export default ContactBox;

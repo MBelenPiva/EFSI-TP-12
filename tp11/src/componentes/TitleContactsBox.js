@@ -1,5 +1,8 @@
 	
-    
+    import React, { useState } from 'react';
+
+    return (
+        <>
     <div class="all-title-box">
     <div class="container">
         <div class="row">
@@ -13,3 +16,8 @@
         </div>
     </div>
 </div>
+
+</>
+);
+
+export default TheContactBox;

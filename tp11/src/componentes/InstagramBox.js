@@ -1,4 +1,7 @@
+import React, { useState } from 'react';
 
+return (
+    <>
 
     <div class="instagram-box">
     <div class="main-instagram owl-carousel owl-theme">
@@ -85,3 +88,8 @@
     </div>
 </div>
 
+
+</>
+);
+
+export default InstagramBox;

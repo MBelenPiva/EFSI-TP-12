@@ -1,4 +1,9 @@
-<div class="all-title-box">
+import React, { useState } from 'react';
+
+return (
+    <>
+    
+    <div class="all-title-box">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -11,3 +16,8 @@
             </div>
         </div>
     </div>
+
+    </>
+);
+
+export default TheShopBox;

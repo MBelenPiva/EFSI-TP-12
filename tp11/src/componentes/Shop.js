@@ -1,3 +1,7 @@
+import React, { useState } from 'react';
+
+return (
+    <>
 
 <div class="shop-box-inner">
         <div class="container">
@@ -369,7 +373,7 @@
                             <div class="price-box-slider">
                                 <div id="slider-range"></div>
                                 <p>
-                                    <input type="text" id="amount" readonly style="border:0; color:#fbb714; font-weight:bold;"/>
+                                    <input type="text" id="amount"/>
                                     <button class="btn hvr-hover" type="submit">Filtrar</button>
                                 </p>
                             </div>
@@ -379,3 +383,10 @@
             </div>
         </div>
     </div>
+
+
+
+</>
+);
+
+export default Shop;

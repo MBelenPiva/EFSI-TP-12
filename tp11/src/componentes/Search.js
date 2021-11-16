@@ -1,3 +1,7 @@
+import React, { useState } from 'react';
+
+return (
+    <>
 
     <div class="top-search">
     <div class="container">
@@ -8,3 +12,10 @@
         </div>
     </div>
 </div>
+
+
+
+</>
+);
+
+export default Search;

@@ -1,3 +1,7 @@
+import React, { useState } from 'react';
+
+return (
+    <>
 
     <div id="slides-shop" class="cover-slides">
     <ul class="slides-container">
@@ -38,3 +42,8 @@
         <a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
     </div>
 </div>
+
+</>
+);
+
+export default SlideShop;
