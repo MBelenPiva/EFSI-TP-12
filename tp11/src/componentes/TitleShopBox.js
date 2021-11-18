@@ -17,9 +17,7 @@ return (
         </div>
     </div>
 
-
 );
-
 }
 
-export default TheShopBox;
+export default TitleShopBox;

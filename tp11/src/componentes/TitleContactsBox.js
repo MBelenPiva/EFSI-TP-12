@@ -22,4 +22,4 @@ return (
 }
 
  
-export default TheContactBox;
+export default TheContactsBox;
