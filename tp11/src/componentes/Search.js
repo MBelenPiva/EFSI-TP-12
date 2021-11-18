@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 
+function Search() {
 return (
-    <>
+
 
     <div class="top-search">
     <div class="container">
@@ -15,7 +16,9 @@ return (
 
 
 
-</>
+
 );
+
+}
 
 export default Search;

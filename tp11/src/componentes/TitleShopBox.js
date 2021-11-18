@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 
+function TitleShopBox() {
 return (
-    <>
-    
+
     <div class="all-title-box">
         <div class="container">
             <div class="row">
@@ -17,7 +17,9 @@ return (
         </div>
     </div>
 
-    </>
+
 );
+
+}
 
 export default TheShopBox;

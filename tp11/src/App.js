@@ -1,11 +1,15 @@
 import './App.css';
-import AboutBox from "./componentes/AboutBox";
+import Navbar from "./componentes/Navbar";
+import Footer from "./componentes/Footer";
 
 
 function App() {
   return (
- 
-  < AboutBox />
+
+< Navbar></Navbar>
+
+
+< Footer></ Footer>
 
   );
 }

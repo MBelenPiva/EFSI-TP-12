@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 
-return (
-    <>
+
+
+function Navbar() {
+    return (
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
 <div class="container">
@@ -69,7 +71,7 @@ return (
 </nav>
 
 
-</>
 );
+}
 
-export default Nabvar;
+export default Navbar;

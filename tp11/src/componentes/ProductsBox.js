@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 
+function ProductsBox() {
 return (
-    <>
 
 
     <div class="products-box">
@@ -124,7 +124,8 @@ return (
 
 
 
-</>
 );
+
+}
 
 export default ProductsBox;

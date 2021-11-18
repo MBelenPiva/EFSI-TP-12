@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 
+function SlideShop() {
 return (
-    <>
+
 
     <div id="slides-shop" class="cover-slides">
     <ul class="slides-container">
@@ -43,7 +44,9 @@ return (
     </div>
 </div>
 
-</>
+
 );
+
+}
 
 export default SlideShop;

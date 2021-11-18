@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 
+function Shop() {
 return (
-    <>
+
 
 <div class="shop-box-inner">
         <div class="container">
@@ -386,7 +387,8 @@ return (
 
 
 
-</>
 );
+
+}
 
 export default Shop;

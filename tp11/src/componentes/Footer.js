@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 
+function Footer() {
 return (
-    <>
 
     <footer>
     <div class="footer-main">
@@ -49,7 +49,8 @@ return (
 </footer>
 
 
-</>
+
 );
+}
 
 export default Footer;

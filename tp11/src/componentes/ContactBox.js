@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 
+function ContactBox() {
 return (
-    <>
+
     
     <div class="contact-box-main">
     <div class="container">
@@ -66,7 +67,7 @@ return (
 </div>
 </div>
 
-</>
 );
+}
 
 export default ContactBox;

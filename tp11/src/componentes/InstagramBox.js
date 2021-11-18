@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 
+function InstagramBox() {
 return (
-    <>
 
     <div class="instagram-box">
     <div class="main-instagram owl-carousel owl-theme">
@@ -89,7 +89,9 @@ return (
 </div>
 
 
-</>
+
 );
+
+}
 
 export default InstagramBox;
