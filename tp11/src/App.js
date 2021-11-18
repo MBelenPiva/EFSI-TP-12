@@ -27,7 +27,7 @@ function App() {
 
 < ProductsBox></ProductsBox>
 
-< Shop></Shop>
+< Shop></Shop>° |a
 
 < InstagramBox></ InstagramBox>
 
