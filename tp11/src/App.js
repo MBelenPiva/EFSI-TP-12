@@ -10,27 +10,40 @@ import ProductsBox from "./componentes/ProductsBox";
 import Shop from "./componentes/Shop";
 import TitleContactsBox from "./componentes/TitleContactsBox";
 import TitleShopBox from "./componentes/TitleShopBox";
+import Home from "./componentes/Home";
+import GoToShop from "./componentes/GoToShop";
+import Contact from "./componentes/Contact";
+
+import{
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+
+} from "react-router-dom";
 
 
 function App() {
   return (
-<>
-< Navbar></Navbar>
-< Search></ Search>
+    <>
 
-< SlideShop></SlideShop>
+      
+        < Home></Home>
 
 
-< AboutBox></AboutBox>
+      
+      < GoToShop></GoToShop>
+     
+    
+     
+      < Contact></Contact>
+  
+    
+    
+    
 
-< ContactBox></ContactBox>
-
-< ProductsBox></ProductsBox>
-
-< Shop></Shop>° |a
 
 < InstagramBox></ InstagramBox>
-
 < Footer></ Footer>
 
 

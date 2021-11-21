@@ -7,7 +7,7 @@ return (
     <div id="slides-shop" class="cover-slides">
     <ul class="slides-container">
         <li class="text-center">
-            <img src="images/banner-01.jpg" alt=""/>
+            <img src=".public/assets/images/banner-01.jpg" alt=""/>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -18,7 +18,7 @@ return (
             </div>
         </li>
         <li class="text-center">
-            <img src="images/banner-02.jpg" alt=""/>
+            <img src="%PUBLIC_URL%/assets/images/banner-02.jpg" alt=""/>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">

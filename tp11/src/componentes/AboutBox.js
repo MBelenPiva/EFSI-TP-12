@@ -1,5 +1,6 @@
 import React, { useState, Fragment } from 'react';
 
+
 function AboutBox() {
 return (
 
@@ -11,7 +12,7 @@ return (
             </div>
             <div class="col-sm-6 col-lg-3">
                 <div class="hover-team">
-                    <div class="our-team"> <img src="images/img-1.jpg" alt="" />
+                    <div class="our-team"> <img src="%PUBLIC_URL%/assets/images/img-1.jpg" alt="" />
                         <div class="team-content">
                             <h3 class="title">Mateo Bolado</h3> <span class="post">Web Developer</span> </div>
                        
