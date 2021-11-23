@@ -16,38 +16,26 @@ import Contact from "./componentes/Contact";
 
 import{
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   Link
 
 } from "react-router-dom";
 
 
+
+
 function App() {
-  return (
-    <>
-
-      
-        < Home></Home>
-
-
-      
-      < GoToShop></GoToShop>
-     
-    
-     
-      < Contact></Contact>
-  
-    
-    
-    
-
-
-< InstagramBox></ InstagramBox>
-< Footer></ Footer>
-
-
-</>
+  return (    
+    <Router>
+      <div className="App">
+          <Routes>
+            <Route exact path="/" element={<Home/>} />
+            <Route exact path="/catalogo" element={<GoToShop/>} />
+            <Route exact path="/contacto" element={<Contact/>} />
+          </Routes>
+      </div>
+    </Router>
   );
 }
 
