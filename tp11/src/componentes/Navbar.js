@@ -17,14 +17,9 @@ function Navbar() {
    
     <div class="collapse navbar-collapse" id="navbar-menu">
         <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-            <li class="nav-item active"><a class="nav-link" href="index.html">HOME</a></li>
-            <li class="dropdown">
-                <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
-                <ul class="dropdown-menu">
-                    <li><a href="shop.html">IR AL SHOP</a></li>
-                </ul>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="contact-us.html">CONTACTOS</a></li>
+            <li class="nav-item active"><a class="nav-link" href="/">HOME</a></li>
+            <li class="nav-item"><a class="nav-link" href="shop">SHOP</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact">CONTACTOS</a></li>
         </ul>
     </div>
     
