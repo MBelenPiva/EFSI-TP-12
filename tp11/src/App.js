@@ -2,7 +2,7 @@ import './App.css';
 import Home from "./componentes/Home";
 import GoToShop from "./componentes/GoToShop";
 import Contact from "./componentes/Contact";
-import ProductosProvider from './ProductosContext';
+import ProductosProvider from './context/ProductosContext';
 
 import{
   BrowserRouter as Router,
@@ -15,7 +15,7 @@ import{
 
 function App() {
   return (    
-  
+  <ProductosProvider>
     <Router>
       <div className="App">
           <Routes>
@@ -25,7 +25,7 @@ function App() {
           </Routes>
       </div>
     </Router>
-
+    </ProductosProvider>
   );
 }
 
