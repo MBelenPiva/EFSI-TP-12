@@ -1,0 +1,21 @@
+
+{
+ "Productos": [
+    {
+        "nombre": "Batata",
+        "descripcion": "Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus sollicitudin. Cras eu metus felis.",
+        "precio": 64
+    },
+    {
+        "nombre": "Espinaca",
+        "descripcion": "Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus sollicitudin. Cras eu metus felis.",
+        "precio": 29
+    },
+    {
+        "nombre": "Espinaca",
+        "descripcion": "Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus sollicitudin. Cras eu metus felis.",
+        "precio": 29
+    }
+  ]
+
+}

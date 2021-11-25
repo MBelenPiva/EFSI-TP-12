@@ -1,7 +1,7 @@
 import React, { useState, Fragment } from 'react';
 
 function SlideShop() {
-return (
+return (    
 
     <div id="slides-shop" class="cover-slides"data-ride="carousel">
     <ul class="slides-container">

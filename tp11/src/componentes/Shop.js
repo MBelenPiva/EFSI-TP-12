@@ -53,7 +53,7 @@ return (
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Tomate</h4>
                                                     <h5> $9.79</h5>
                                                 </div>
                                             </div>
@@ -74,7 +74,7 @@ return (
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Lechuga</h4>
                                                     <h5> $9.79</h5>
                                                 </div>
                                             </div>
@@ -95,7 +95,7 @@ return (
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Batata</h4>
                                                     <h5> $9.79</h5>
                                                 </div>
                                             </div>
@@ -116,7 +116,7 @@ return (
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Zanahoria</h4>
                                                     <h5> $9.79</h5>
                                                 </div>
                                             </div>
@@ -137,7 +137,7 @@ return (
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Lechuga</h4>
                                                     <h5> $9.79</h5>
                                                 </div>
                                             </div>
@@ -158,7 +158,7 @@ return (
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Tomate</h4>
                                                     <h5> $9.79</h5>
                                                 </div>
                                             </div>
@@ -179,7 +179,7 @@ return (
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Cebolla</h4>
                                                     <h5> $9.79</h5>
                                                 </div>
                                             </div>
@@ -200,7 +200,7 @@ return (
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Papa</h4>
                                                     <h5> $9.79</h5>
                                                 </div>
                                             </div>
@@ -221,7 +221,7 @@ return (
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Pepino</h4>
                                                     <h5> $9.79</h5>
                                                 </div>
                                             </div>
@@ -251,7 +251,7 @@ return (
                                             </div>
                                             <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
                                                 <div class="why-text full-width">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Batata</h4>
                                                     <h5> <del>$ 60.00</del> $40.79</h5>
                                                     <p>Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus
                                                         sollicitudin. Cras eu metus felis. Sed arcu arcu, sagittis in blandit eu, imperdiet sit amet eros. Donec accumsan nisi purus, quis euismod ex volutpat in. Vestibulum eleifend eros ac lobortis aliquet.
@@ -282,7 +282,7 @@ return (
                                             </div>
                                             <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
                                                 <div class="why-text full-width">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Calabaza</h4>
                                                     <h5> <del>$ 60.00</del> $40.79</h5>
                                                     <p>Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus
                                                         sollicitudin. Cras eu metus felis. Sed arcu arcu, sagittis in blandit eu, imperdiet sit amet eros. Donec accumsan nisi purus, quis euismod ex volutpat in. Vestibulum eleifend eros ac lobortis aliquet.
@@ -313,7 +313,7 @@ return (
                                             </div>
                                             <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
                                                 <div class="why-text full-width">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Espinaca</h4>
                                                     <h5> <del>$ 60.00</del> $40.79</h5>
                                                     <p>Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus
                                                         sollicitudin. Cras eu metus felis. Sed arcu arcu, sagittis in blandit eu, imperdiet sit amet eros. Donec accumsan nisi purus, quis euismod ex volutpat in. Vestibulum eleifend eros ac lobortis aliquet.
