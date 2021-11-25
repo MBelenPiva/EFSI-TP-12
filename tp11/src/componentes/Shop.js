@@ -43,7 +43,7 @@ return (
                                                     <div class="type-lb">
                                                         <p class="sale">Oferta</p>
                                                     </div>
-                                                    <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image"/>
+                                                    <img src="./assets/images/img-pro-01.jpg" class="img-fluid" alt="Image"/>
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -64,7 +64,7 @@ return (
                                                     <div class="type-lb">
                                                         <p class="new">Nuevo</p>
                                                     </div>
-                                                    <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image"/>
+                                                    <img src="./assets/images/img-pro-02.jpg" class="img-fluid" alt="Image"/>
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -85,7 +85,7 @@ return (
                                                     <div class="type-lb">
                                                         <p class="sale">Oferta</p>
                                                     </div>
-                                                    <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image"/>
+                                                    <img src="./assets/images/img-pro-03.jpg" class="img-fluid" alt="Image"/>
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -106,7 +106,7 @@ return (
                                                     <div class="type-lb">
                                                         <p class="new">Nuevo</p>
                                                     </div>
-                                                    <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image"/>
+                                                    <img src="./assets/images/img-pro-01.jpg" class="img-fluid" alt="Image"/>
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -127,7 +127,7 @@ return (
                                                     <div class="type-lb">
                                                         <p class="sale">Oferta</p>
                                                     </div>
-                                                    <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image"/>
+                                                    <img src="./assets/images/img-pro-02.jpg" class="img-fluid" alt="Image"/>
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -148,7 +148,7 @@ return (
                                                     <div class="type-lb">
                                                         <p class="sale">Oferta</p>
                                                     </div>
-                                                    <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image"/>
+                                                    <img src="./assets/images/img-pro-03.jpg" class="img-fluid" alt="Image"/>
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -169,7 +169,7 @@ return (
                                                     <div class="type-lb">
                                                         <p class="sale">Oferta</p>
                                                     </div>
-                                                    <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image"/>
+                                                    <img src="./assets/images/img-pro-01.jpg" class="img-fluid" alt="Image"/>
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -190,7 +190,7 @@ return (
                                                     <div class="type-lb">
                                                         <p class="sale">Oferta</p>
                                                     </div>
-                                                    <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image"/>
+                                                    <img src="./assets/images/img-pro-02.jpg" class="img-fluid" alt="Image"/>
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -211,7 +211,7 @@ return (
                                                     <div class="type-lb">
                                                         <p class="new">Nuevo</p>
                                                     </div>
-                                                    <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image"/>
+                                                    <img src="./assets/images/img-pro-03.jpg" class="img-fluid" alt="Image"/>
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -237,7 +237,7 @@ return (
                                                         <div class="type-lb">
                                                             <p class="new">Nuevo</p>
                                                         </div>
-                                                        <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image"/>
+                                                        <img src="./assets/images/img-pro-01.jpg" class="img-fluid" alt="Image"/>
                                                         <div class="mask-icon">
                                                             <ul>
                                                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -268,7 +268,7 @@ return (
                                                         <div class="type-lb">
                                                             <p class="sale">Oferta</p>
                                                         </div>
-                                                        <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image"/>
+                                                        <img src="./assets/images/img-pro-02.jpg" class="img-fluid" alt="Image"/>
                                                         <div class="mask-icon">
                                                             <ul>
                                                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -299,7 +299,7 @@ return (
                                                         <div class="type-lb">
                                                             <p class="sale">Oferta</p>
                                                         </div>
-                                                        <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image"/>
+                                                        <img src="./assets/images/img-pro-03.jpg" class="img-fluid" alt="Image"/>
                                                         <div class="mask-icon">
                                                             <ul>
                                                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -341,30 +341,18 @@ return (
                             </div>
                             <div class="list-group list-group-collapse list-group-sm list-group-tree" id="list-group-men" data-children=".sub-men">
                                 <div class="list-group-collapse sub-men">
-                                    <a class="list-group-item list-group-item-action" href="#sub-men1" data-toggle="collapse" aria-expanded="true" aria-controls="sub-men1">Frutas y bebidas <small class="text-muted">(100)</small>
+                                    <a class="list-group-item list-group-item-action" href="#sub-men1" data-toggle="collapse" aria-expanded="true" aria-controls="sub-men1"> Filtro por precios  <small class="text-muted">(100)</small>
 								</a>
                                     <div class="collapse show" id="sub-men1" data-parent="#list-group-men">
                                         <div class="list-group">
-                                            <a href="#" class="list-group-item list-group-item-action active">Frutas 1 <small class="text-muted">(50)</small></a>
-                                            <a href="#" class="list-group-item list-group-item-action">Frutas 2 <small class="text-muted">(10)</small></a>
-                                            <a href="#" class="list-group-item list-group-item-action">Frutas 3 <small class="text-muted">(10)</small></a>
-                                            <a href="#" class="list-group-item list-group-item-action">Frutas 4 <small class="text-muted">(10)</small></a>
-                                            <a href="#" class="list-group-item list-group-item-action">Frutas 5 <small class="text-muted">(20)</small></a>
+                                            <a href="#" class="list-group-item list-group-item-action">Precio ASC <small class="text-muted">(10)</small></a>
+                                            <a href="#" class="list-group-item list-group-item-action">Precio DESC <small class="text-muted">(10)</small></a>
+                                            <a href="#" class="list-group-item list-group-item-action">Nombre ASC <small class="text-muted">(10)</small></a>
+                                            <a href="#" class="list-group-item list-group-item-action">Nombre DESC <small class="text-muted">(20)</small></a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="list-group-collapse sub-men">
-                                    <a class="list-group-item list-group-item-action" href="#sub-men2" data-toggle="collapse" aria-expanded="false" aria-controls="sub-men2">Vegetables 
-								<small class="text-muted">(50)</small>
-								</a>
-                                    <div class="collapse" id="sub-men2" data-parent="#list-group-men">
-                                        <div class="list-group">
-                                            <a href="#" class="list-group-item list-group-item-action">Vegetales 1 <small class="text-muted">(10)</small></a>
-                                            <a href="#" class="list-group-item list-group-item-action">Vegetales 2 <small class="text-muted">(20)</small></a>
-                                            <a href="#" class="list-group-item list-group-item-action">Vegetales 3 <small class="text-muted">(20)</small></a>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                         <div class="filter-price-left">

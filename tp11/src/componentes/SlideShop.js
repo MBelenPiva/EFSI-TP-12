@@ -3,11 +3,11 @@ import React, { useState, Fragment } from 'react';
 function SlideShop() {
 return (
 
-
-    <div id="slides-shop" class="cover-slides">
+    <div id="slides-shop" class="cover-slides"data-ride="carousel">
     <ul class="slides-container">
+        
         <li class="text-center">
-            <img src=".public/assets/images/banner-01.jpg" alt=""/>
+            <img src="images/banner-01.jpg" alt=""/>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -18,7 +18,7 @@ return (
             </div>
         </li>
         <li class="text-center">
-            <img src="%PUBLIC_URL%/assets/images/banner-02.jpg" alt=""/>
+            <img src="images/banner-02.jpg" alt=""/>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -43,6 +43,8 @@ return (
         <a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
     </div>
 </div>
+
+
 
 
 );

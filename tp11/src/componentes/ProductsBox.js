@@ -33,7 +33,7 @@ return (
                         <div class="type-lb">
                             <p class="sale">Oferta</p>
                         </div>
-                        <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image"/>
+                        <img src="./assets/images/img-pro-01.jpg" class="img-fluid" alt="Image"/>
                         <div class="mask-icon">
                             <ul>
                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -56,7 +56,7 @@ return (
                         <div class="type-lb">
                             <p class="new">Nuevo</p>
                         </div>
-                        <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image"/>
+                        <img src="./assets/images/img-pro-02.jpg" class="img-fluid" alt="Image"/>
                         <div class="mask-icon">
                             <ul>
                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -79,7 +79,7 @@ return (
                         <div class="type-lb">
                             <p class="sale">Oferta</p>
                         </div>
-                        <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image"/>
+                        <img src="./assets/images/img-pro-03.jpg" class="img-fluid" alt="Image"/>
                         <div class="mask-icon">
                             <ul>
                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -102,7 +102,7 @@ return (
                         <div class="type-lb">
                             <p class="sale">Oferta</p>
                         </div>
-                        <img src="images/img-pro-04.jpg" class="img-fluid" alt="Image"/>
+                        <img src="./assets/images/img-pro-04.jpg" class="img-fluid" alt="Image"/>
                         <div class="mask-icon">
                             <ul>
                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>

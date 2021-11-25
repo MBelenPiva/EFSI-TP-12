@@ -4,6 +4,7 @@ import SlideShop from './SlideShop';
 import ProductsBox from './ProductsBox';
 import InstagramBox from './InstagramBox';
 import Footer from './Footer';
+import AboutBox from './AboutBox';
 
 const Home = () => {
     
@@ -14,6 +15,7 @@ const Home = () => {
         <Navbar></Navbar>
         <SlideShop></SlideShop>
         <ProductsBox></ProductsBox>
+        <AboutBox></AboutBox>
         <Footer></Footer>
         </section>
         

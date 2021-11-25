@@ -12,7 +12,7 @@ return (
             </div>
             <div class="col-sm-6 col-lg-3">
                 <div class="hover-team">
-                    <div class="our-team"> <img src="%PUBLIC_URL%/assets/images/img-1.jpg" alt="" />
+                    <div class="our-team"> <img src="./assets/images/img-1.jpg" alt="" />
                         <div class="team-content">
                             <h3 class="title">Mateo Bolado</h3> <span class="post">Web Developer</span> </div>
                        
@@ -24,7 +24,7 @@ return (
             </div>
             <div class="col-sm-6 col-lg-3">
                 <div class="hover-team">
-                    <div class="our-team"> <img src="images/img-2.jpg" alt="" />
+                    <div class="our-team"> <img src="./assets/images/img-2.jpg" alt="" />
                         <div class="team-content">
                             <h3 class="title">Sofia Ferreira</h3> <span class="post">Web Developer</span> </div>
                        
@@ -36,7 +36,7 @@ return (
             </div>
             <div class="col-sm-6 col-lg-3">
                 <div class="hover-team">
-                    <div class="our-team"> <img src="images/img-3.jpg" alt="" />
+                    <div class="our-team"> <img src="./assets/images/img-3.jpg" alt="" />
                         <div class="team-content">
                             <h3 class="title">Javier Park</h3> <span class="post">Web Developer</span> </div>
                         
@@ -48,7 +48,7 @@ return (
             </div>
             <div class="col-sm-6 col-lg-3">
                 <div class="hover-team">
-                    <div class="our-team"> <img src="images/img-1.jpg" alt="" />
+                    <div class="our-team"> <img src="./assets/images/img-1.jpg" alt="" />
                         <div class="team-content">
                             <h3 class="title">Maximo Hernandez</h3> <span class="post">Web Developer</span> </div>
                       

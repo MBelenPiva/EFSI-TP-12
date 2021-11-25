@@ -15,8 +15,7 @@ import{
 
 function App() {
   return (    
-
-    <ProductosProvider>   
+  
     <Router>
       <div className="App">
           <Routes>
@@ -27,7 +26,6 @@ function App() {
       </div>
     </Router>
 
-    </ProductosProvider>
   );
 }
 
