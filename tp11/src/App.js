@@ -7,9 +7,7 @@ import ProductosProvider from './context/ProductosContext';
 import{
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
-
+  Route  
 } from "react-router-dom";
 
 

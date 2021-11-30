@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from './Navbar';
 import SlideShop from './SlideShop';
 import ProductsBox from './ProductsBox';
-import InstagramBox from './InstagramBox';
 import Footer from './Footer';
 import AboutBox from './AboutBox';
 

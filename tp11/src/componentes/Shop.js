@@ -1,108 +1,87 @@
 import React, { useState, Fragment,useContext } from 'react';
 import { ProductosContext } from '../context/ProductosContext';
 import Producto from './Producto';
+import ProductoList from './ProductoList';
 
 function Shop() {
-
-    const {productosActual} = useContext(ProductosContext);
+    const [vista, setVista] = useState(true);
+    const {productosActual, setFiltro,setOrdenamiento} = useContext(ProductosContext);
 return (
 
 
-<div class="shop-box-inner">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-9 col-lg-9 col-sm-12 col-xs-12 shop-content-right">
-                    <div class="right-product-box">
-                        <div class="product-item-filter row">
-                            <div class="col-12 col-sm-8 text-center text-sm-left">
-                                <div class="toolbar-sorter-right">
+<div className="shop-box-inner">
+        <div className="container">
+            <div className="row">
+                <div className="col-xl-9 col-lg-9 col-sm-12 col-xs-12 shop-content-right">
+                    <div className="right-product-box">
+                        <div className="product-item-filter row">
+                            <div className="col-12 col-sm-8 text-center text-sm-left">
+                                <div className="toolbar-sorter-right">
                                     <span> Filtrar por </span>
-                                    <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
-									<option data-display="Select">Todos</option>
-									<option value="1">Productos destacados</option>
-									<option value="4">Mas vendidos</option>
+                                    <select id="basic" className="selectpicker show-tick form-control" data-placeholder="$ USD" onChange={(e) => setFiltro(e.target.value)}>
+									<option value="0" data-display="Select">Todos</option>
+									<option value="1">verdura</option>
+									<option value="2">fruta</option>
 								</select>
                                 </div>
                                 <p>Mostrar los resultados</p>
                             </div>
-                            <div class="col-12 col-sm-4 text-center text-sm-right">
-                                <ul class="nav nav-tabs ml-auto">
+                            <div className="col-12 col-sm-4 text-center text-sm-right">
+                                <ul className="nav nav-tabs ml-auto">
                                     <li>
-                                        <a class="nav-link active" href="#grid-view" data-toggle="tab"> <i class="fa fa-th"></i> </a>
+                                        <a className="nav-link active" href="#grid-view" data-toggle="tab"> <i className="fa fa-th"></i> </a>
                                     </li>
                                     <li>
-                                        <a class="nav-link" href="#list-view" data-toggle="tab"> <i class="fa fa-list-ul"></i> </a>
+                                        <a className="nav-link" href="#list-view" data-toggle="tab"> <i className="fa fa-list-ul"></i> </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div class="product-categorie-box">
-                            <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane fade show active" id="grid-view">
-                                    <div class="row">
+                        <div className="product-categorie-box">
+                            <div className="tab-content">
+                                <div role="tabpanel" className="tab-pane fade show active" id="grid-view">
+                                    <div className="row">
                                         {
                                             productosActual.map(prod =>(
-                                                <Producto producto={prod} />
+                                                <Producto key={prod.id} producto={prod} />
                                             ))
                                         }
                                     </div>
                                 </div>
                                 
-                                <div role="tabpanel" class="tab-pane fade" id="list-view">
-                                    <div class="list-view-box">
-                                        <div class="row">
-                                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                                <div class="products-single fix">
-                                                    <div class="box-img-hover">
-                                                        <div class="type-lb">
-                                                            <p class="new">Nuevo</p>
-                                                        </div>
-                                                        <img src="./assets/images/img-pro-01.jpg" class="img-fluid" alt="Image"/>
-                                                        <div class="mask-icon">
-                                                            <ul>
-                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                                            </ul>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
-                                                <div class="why-text full-width">
-                                                    <h4>Batata</h4>
-                                                    <h5> <del>$ 60.00</del> $64</h5>
-                                                    <p>Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus
-                                                        sollicitudin. Cras eu metus felis. Sed arcu arcu, sagittis in blandit eu, imperdiet sit amet eros. Donec accumsan nisi purus, quis euismod ex volutpat in. Vestibulum eleifend eros ac lobortis aliquet.
-                                                        Suspendisse at ipsum vel lacus vehicula blandit et sollicitudin quam. Praesent vulputate semper libero pulvinar consequat. Etiam ut placerat lectus.</p>
-                                                </div>
-                                            </div>
+                                <div role="tabpanel" className="tab-pane fade" id="list-view">
+                                    <div className="list-view-box">
+                                        <div className="row">
+                                            {
+                                                productosActual.map(prod =>(
+                                                    <ProductoList key={prod.id} producto={prod} />
+                                                ))
+                                            }
                                         </div>
                                     </div>
-                                    <div class="list-view-box">
-                                        <div class="row">
-                                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                                <div class="products-single fix">
-                                                    <div class="box-img-hover">
-                                                        <div class="type-lb">
-                                                            <p class="sale">Oferta</p>
+                                    <div className="list-view-box">
+                                        <div className="row">
+                                            <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                                <div className="products-single fix">
+                                                    <div className="box-img-hover">
+                                                        <div className="type-lb">
+                                                            <p className="sale">Oferta</p>
                                                         </div>
-                                                        <img src="./assets/images/img-pro-02.jpg" class="img-fluid" alt="Image"/>
-                                                        <div class="mask-icon">
+                                                        <img src="./assets/images/img-pro-02.jpg" className="img-fluid" alt="Image"/>
+                                                        <div className="mask-icon">
                                                             <ul>
-                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i className="fas fa-eye"></i></a></li>
+                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i className="fas fa-sync-alt"></i></a></li>
+                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i className="far fa-heart"></i></a></li>
                                                             </ul>
 
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
-                                                <div class="why-text full-width">
+                                            <div className="col-sm-6 col-md-6 col-lg-8 col-xl-8">
+                                                <div className="why-text full-width">
                                                     <h4>Calabaza</h4>
                                                     <h5> <del>$ 60.00</del> $80</h5>
                                                     <p>Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus
@@ -112,28 +91,28 @@ return (
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="list-view-box">
-                                        <div class="row">
-                                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                                <div class="products-single fix">
-                                                    <div class="box-img-hover">
-                                                        <div class="type-lb">
-                                                            <p class="sale">Oferta</p>
+                                    <div className="list-view-box">
+                                        <div className="row">
+                                            <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                                <div className="products-single fix">
+                                                    <div className="box-img-hover">
+                                                        <div className="type-lb">
+                                                            <p className="sale">Oferta</p>
                                                         </div>
-                                                        <img src="./assets/images/img-pro-03.jpg" class="img-fluid" alt="Image"/>
-                                                        <div class="mask-icon">
+                                                        <img src="./assets/images/img-pro-03.jpg" className="img-fluid" alt="Image"/>
+                                                        <div className="mask-icon">
                                                             <ul>
-                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i className="fas fa-eye"></i></a></li>
+                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i className="fas fa-sync-alt"></i></a></li>
+                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i className="far fa-heart"></i></a></li>
                                                             </ul>
 
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
-                                                <div class="why-text full-width">
+                                            <div className="col-sm-6 col-md-6 col-lg-8 col-xl-8">
+                                                <div className="why-text full-width">
                                                     <h4>Espinaca</h4>
                                                     <h5> <del>$ 60.00</del> $29</h5>
                                                     <p>Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus
@@ -148,43 +127,42 @@ return (
                         </div>
                     </div>
                 </div>
-				<div class="col-xl-3 col-lg-3 col-sm-12 col-xs-12 sidebar-shop-left">
-                    <div class="product-categori">
-                        <div class="search-product">
+				<div className="col-xl-3 col-lg-3 col-sm-12 col-xs-12 sidebar-shop-left">
+                    <div className="product-categori">
+                        <div className="search-product">
                             <form action="#">
-                                <input class="form-control" placeholder="Buscar producto..." type="text"/>
-                                <button type="submit"> <i class="fa fa-search"></i> </button>
+                                <input className="form-control" placeholder="Buscar producto..." type="text"/>
+                                <button type="submit"> <i className="fa fa-search"></i> </button>
                             </form>
                         </div>
-                        <div class="filter-sidebar-left">
-                            <div class="title-left">
+                        <div className="filter-sidebar-left">
+                            <div className="title-left">
                                 <h3>Categorias</h3>
                             </div>
-                            <div class="list-group list-group-collapse list-group-sm list-group-tree" id="list-group-men" data-children=".sub-men">
-                                <div class="list-group-collapse sub-men">
-                                    <a class="list-group-item list-group-item-action" href="#sub-men1" data-toggle="collapse" aria-expanded="true" aria-controls="sub-men1"> Filtro por precios  <small class="text-muted">(100)</small>
+                            <div className="list-group list-group-collapse list-group-sm list-group-tree" id="list-group-men" data-children=".sub-men">
+                                <div className="list-group-collapse sub-men">
+                                    <a className="list-group-item list-group-item-action" href="#sub-men1" data-toggle="collapse" aria-expanded="true" aria-controls="sub-men1"> Filtro por precios  <small className="text-muted">(100)</small>
 								</a>
-                                    <div class="collapse show" id="sub-men1" data-parent="#list-group-men">
-                                        <div class="list-group">
-                                            <a href="#" class="list-group-item list-group-item-action">Precio ASC <small class="text-muted">(10)</small></a>
-                                            <a href="#" class="list-group-item list-group-item-action">Precio DESC <small class="text-muted">(10)</small></a>
-                                            <a href="#" class="list-group-item list-group-item-action">Nombre ASC <small class="text-muted">(10)</small></a>
-                                            <a href="#" class="list-group-item list-group-item-action">Nombre DESC <small class="text-muted">(20)</small></a>
-                                        </div>
-                                    </div>
+                                <select name="select" className="combos" onChange={(e) => setOrdenamiento(e.target.value)}>
+                                        <option disabled selected value> -- Seleccione el ordenamiento -- </option>
+                                        <option className="dropdown-item" value="1" href="">Precio ASC</option>
+                                        <option className="dropdown-item" value="2" href="">Precio DESC</option>
+                                        <option className="dropdown-item" value="3" href="">Nombre ASC</option>
+                                        <option className="dropdown-item" value="4" href="">Nombre DESC</option>
+                                    </select>
                                 </div>
-                                
+                            
                             </div>
                         </div>
-                        <div class="filter-price-left">
-                            <div class="title-left">
+                        <div className="filter-price-left">
+                            <div className="title-left">
                                 <h3>Precio</h3>
                             </div>
-                            <div class="price-box-slider">
+                            <div className="price-box-slider">
                                 <div id="slider-range"></div>
                                 <p>
                                     <input type="text" id="amount"/>
-                                    <button class="btn hvr-hover" type="submit">Filtrar</button>
+                                    <button className="btn hvr-hover" type="submit">Filtrar</button>
                                 </p>
                             </div>
                         </div>

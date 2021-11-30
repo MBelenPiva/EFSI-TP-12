@@ -6,13 +6,10 @@ const ProductosProvider = (props) => {
 
     const [productos, setProductos] = useState([]);
     const [productosActual, setProductosActual] = useState([]);
-    const [filtro, setFiltro] = useState(null);
+    const [filtro, setFiltro] = useState(0);
+    const [ordenamiento, setOrdenamiento] = useState(null);
 
-    const ObtenerProductos = ()=>{
-
-        return 0;
-
-    }
+    
 
     useEffect(() => {
         setProductos(productojson);
@@ -20,12 +17,16 @@ const ProductosProvider = (props) => {
     },[]);
 
     useEffect(()=>{
-        filtrarProductos();
-    },[filtro]);
+        console.log(filtro);
+        if(filtro >0)
+            filtrarProductos();
+        else
+            setProductosActual(productojson);
+    },[filtro,ordenamiento]);
 
     const filtrarProductos = ()=>{
         let newarray = productos;
-        setProductosActual(newarray.filter(newarray => newarray.includes()));
+        setProductosActual(newarray.filter(a=>a.idCategoria == filtro));
     }
 
     return (
@@ -34,8 +35,8 @@ const ProductosProvider = (props) => {
 
             value={{
 
-                ObtenerProductos,
-
+                setFiltro,
+                setOrdenamiento,
                 productosActual
 
             }}

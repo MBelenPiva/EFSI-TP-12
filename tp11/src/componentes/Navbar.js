@@ -1,34 +1,34 @@
-import React, { useState, Fragment } from 'react';
+import React from 'react';
 
 
 
 function Navbar() {
     return (
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
-<div class="container">
+<nav className="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
+<div className="container">
  
-    <div class="navbar-header">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa fa-bars"></i>
+    <div className="navbar-header">
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+        <i className="fa fa-bars"></i>
     </button>
-        <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo" alt=""/></a>
+        <a className="navbar-brand" href="index.html"><img src="images/logo.png" className="logo" alt=""/></a>
     </div>
    
-    <div class="collapse navbar-collapse" id="navbar-menu">
-        <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-            <li class="nav-item active"><a class="nav-link" href="/">HOME</a></li>
-            <li class="nav-item"><a class="nav-link" href="shop">SHOP</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact">CONTACTOS</a></li>
+    <div className="collapse navbar-collapse" id="navbar-menu">
+        <ul className="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+            <li className="nav-item active"><a className="nav-link" href="/">HOME</a></li>
+            <li className="nav-item"><a className="nav-link" href="/shop">SHOP</a></li>
+            <li className="nav-item"><a className="nav-link" href="/contact">CONTACTOS</a></li>
         </ul>
     </div>
     
 
     
-    <div class="attr-nav">
+    <div className="attr-nav">
         <ul>
-            <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
-            <li class="side-menu">
+            <li className="search"><a href="#"><i className="fa fa-search"></i></a></li>
+            <li className="side-menu">
                 
             </li>
         </ul>
@@ -36,28 +36,28 @@ function Navbar() {
     
 </div>
 
-<div class="side">
-    <a href="#" class="close-side"><i class="fa fa-times"></i></a>
-    <li class="cart-box">
-        <ul class="cart-list">
+<div className="side">
+    <a href="#" className="close-side"><i className="fa fa-times"></i></a>
+    <li className="cart-box">
+        <ul className="cart-list">
             <li>
-                <a href="#" class="photo"><img src="images/img-pro-01.jpg" class="cart-thumb" alt="" /></a>
+                <a href="#" className="photo"><img src="images/img-pro-01.jpg" className="cart-thumb" alt="" /></a>
                 <h6><a href="#">Delica omtantur </a></h6>
-                <p>1x - <span class="price">$80.00</span></p>
+                <p>1x - <span className="price">$80.00</span></p>
             </li>
             <li>
-                <a href="#" class="photo"><img src="images/img-pro-02.jpg" class="cart-thumb" alt="" /></a>
+                <a href="#" className="photo"><img src="images/img-pro-02.jpg" className="cart-thumb" alt="" /></a>
                 <h6><a href="#">Omnes ocurreret</a></h6>
-                <p>1x - <span class="price">$60.00</span></p>
+                <p>1x - <span className="price">$60.00</span></p>
             </li>
             <li>
-                <a href="#" class="photo"><img src="images/img-pro-03.jpg" class="cart-thumb" alt="" /></a>
+                <a href="#" className="photo"><img src="images/img-pro-03.jpg" className="cart-thumb" alt="" /></a>
                 <h6><a href="#">Agam facilisis</a></h6>
-                <p>1x - <span class="price">$40.00</span></p>
+                <p>1x - <span className="price">$40.00</span></p>
             </li>
-            <li class="total">
-                <a href="#" class="btn btn-default hvr-hover btn-cart">VIEW CART</a>
-                <span class="float-right"><strong>Total</strong>: $180.00</span>
+            <li className="total">
+                <a href="#" className="btn btn-default hvr-hover btn-cart">VIEW CART</a>
+                <span className="float-right"><strong>Total</strong>: $180.00</span>
             </li>
         </ul>
     </li>
