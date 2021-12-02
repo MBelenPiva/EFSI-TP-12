@@ -9,7 +9,7 @@ function Producto({producto}) {
                 <div className="type-lb">
                     <p className="sale">Oferta</p>
                 </div>
-                <img src="./assets/images/img-pro-01.jpg" className="img-fluid" alt="Image"/>
+                <img src={producto.imagen}className="img-fluid" alt="Image"/>
                 <div className="mask-icon">
                     <ul>
                         <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i className="fas fa-eye"></i></a></li>
@@ -20,7 +20,7 @@ function Producto({producto}) {
             </div>
             <div className="why-text">
                 <h4>{producto.nombre}</h4>
-                <h5> $9.79</h5>
+                <h5> {producto.precio}</h5>
             </div>
         </div>
     </div>

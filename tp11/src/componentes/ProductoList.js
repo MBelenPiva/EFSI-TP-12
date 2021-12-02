@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useState, Fragment,useContext } from 'react';
+import { ProductosContext } from '../context/ProductosContext';
+import Producto from './Producto';
 
 function ProductoList({producto}) {
+    const {productosActual, setFiltro,setOrdenamiento} = useContext(ProductosContext);
     return (
         <>
         <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4">
@@ -9,7 +12,7 @@ function ProductoList({producto}) {
                     <div className="type-lb">
                         <p className="new">Nuevo</p>
                     </div>
-                    <img src="./assets/images/img-pro-01.jpg" className="img-fluid" alt="Image"/>
+                    <img src={producto.imagen} className="img-fluid" alt="Image"/>
                     <div className="mask-icon">
                         <ul>
                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i className="fas fa-eye"></i></a></li>
@@ -23,11 +26,12 @@ function ProductoList({producto}) {
         </div>
         <div className="col-sm-6 col-md-6 col-lg-8 col-xl-8">
             <div className="why-text full-width">
-                <h4>Batata</h4>
-                <h5> <del>$ 60.00</del> $64</h5>
-                <p>Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus
-                    sollicitudin. Cras eu metus felis. Sed arcu arcu, sagittis in blandit eu, imperdiet sit amet eros. Donec accumsan nisi purus, quis euismod ex volutpat in. Vestibulum eleifend eros ac lobortis aliquet.
-                    Suspendisse at ipsum vel lacus vehicula blandit et sollicitudin quam. Praesent vulputate semper libero pulvinar consequat. Etiam ut placerat lectus.</p>
+                <h4>  {producto.nombre}</h4>
+                <h5> <del>$ 60.00</del>   {producto.precio}</h5>
+                <p>
+                {producto.descripcion}
+
+                </p>
             </div>
         </div>
         </>

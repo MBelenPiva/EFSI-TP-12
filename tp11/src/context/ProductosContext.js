@@ -21,12 +21,44 @@ const ProductosProvider = (props) => {
         if(filtro >0)
             filtrarProductos();
         else
-            setProductosActual(productojson);
+            setProductosActual(ordenar(productojson));
     },[filtro,ordenamiento]);
 
     const filtrarProductos = ()=>{
-        let newarray = productos;
-        setProductosActual(newarray.filter(a=>a.idCategoria == filtro));
+        let newarray = ordenar(productos);
+        setProductosActual(newarray.filter(a=>a.idCategoria == filtro));        
+    }
+
+    const ordenar = (newarray) =>{
+        console.log('ordenamiento');        
+        if(ordenamiento == 1){
+            newarray.sort(function (a, b) {
+                if (a.precio > b.precio) {
+                return 1;
+                }
+                if (a.precio < b.precio) {
+                return -1;
+                }
+                // a must be equal to b
+                return 0;
+            });
+
+            return newarray;
+        }
+        else{
+            newarray.sort(function (a, b) {
+                if (a.precio < b.precio) {
+                return 1;
+                }
+                if (a.precio > b.precio) {
+                return -1;
+                }
+                // a must be equal to b
+                return 0;
+            });
+
+            return newarray;
+        }
     }
 
     return (

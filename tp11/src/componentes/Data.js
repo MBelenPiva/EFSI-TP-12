@@ -3,8 +3,8 @@ const productojson =  [
         "id": "1",
         "idCategoria": "1",
         "nombre": "Batata",
-        "imagen": "images/img-pro-01.jpg",
-        "descripcion": "Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus sollicitudin. Cras eu metus felis.",
+        "imagen": "./assets/images/img-pro-01.jpg",
+        "descripcion": "Batatas ricas y frescas de la mejor feria",
         "precio": 64
     },
     {
@@ -12,7 +12,7 @@ const productojson =  [
         "idCategoria": "2",
         "nombre": "Calabaza",
         "imagen": "./assets/images/img-pro-02.jpg",
-        "descripcion": "Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus sollicitudin. Cras eu metus felis.",
+        "descripcion": "Calabazas frescas y ricas para disfrutarlas entre amigos y familia",
         "precio": 80
     },
     {
@@ -20,7 +20,7 @@ const productojson =  [
         "idCategoria": "3",
         "nombre": "Espinaca",
         "imagen": "./assets/images/img-pro-03.jpg",
-        "descripcion": "Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus sollicitudin. Cras eu metus felis.",
+        "descripcion": "Espinaca verde saludable para que la disfruten sus hijos",
         "precio": 29
     }
 ];
